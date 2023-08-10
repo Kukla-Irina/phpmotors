@@ -1,0 +1,84 @@
+/* Full size screen */
+@media only screen and (min-width: 64rem) {
+    body {
+        background-image: url("../images/site/small_check.jpg");
+    }    
+
+  .main {
+    width: 80%;
+    border-style: solid;
+    border-color: #4c96d7;
+    border-width: 5px;
+    border-radius: 10px;
+    margin-top: 1%;
+  }
+
+  nav li a:hover {
+    background-color: #4c96d7;
+    color: #000000;
+    font-family: 'Aldrich', sans-serif;
+}
+
+.container2 {
+    align-items: normal;
+}
+
+.button {
+    position: absolute;
+    margin-left: 0.8%;
+    top: 300px;
+    width: 140px;
+}
+.section {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+}
+
+.reviews {
+    width: 70%;
+}
+
+    footer {
+        border-width: 3px;
+    }
+
+    #inv-display {
+		flex-flow: row wrap;
+		justify-content: flex-start;
+	}
+
+	#inv-display h2{
+		font-size: 1rem;
+	}
+
+	#inv-display li {
+		max-width: 200px;
+		flex: 1 0 auto;
+		text-align: center;
+		height: 250px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+        margin-left: 2%;
+	}
+      
+	#inv-display div {
+		width: 100%;
+	}
+
+
+.cars {
+    display: flex;
+}
+
+.carsinfo {
+    padding-left: 1%;
+}
+
+.cars img {
+    width: 60%;
+    object-fit:cover;
+}
+
+}

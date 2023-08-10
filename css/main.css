@@ -1,0 +1,224 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account {
+margin-right: 5%;
+color: #3a3a3a;
+}
+
+.accountlink, .reglink {
+    color: #3a3a3a;
+}
+
+span {
+    font-size: 0.8em;
+}
+
+#button {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color:#3a3a3a;
+    background-color: #a6cbeb;
+    text-decoration: none;
+    border: solid #3a3a3a;
+    max-width: 200px;
+    font-size: 1.25em;
+}
+
+#button2 {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color:#3a3a3a;
+    background-color: #a6cbeb;
+    text-decoration: none;
+    border: solid #3a3a3a;
+    max-width: 200px;
+    font-size: 1.25em;
+}
+
+#classificationList {
+    margin-left: 1%;
+}
+
+table {
+    margin-left: 1%;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    margin-left: 1%;
+}
+
+label {
+    margin-top: 15px;
+}
+
+body {
+    font-family: 'Share Tech', sans-serif;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+main {
+    padding: 20px;
+}
+
+main img {
+    max-width: 100%;
+}
+
+.reviews li {
+    margin-bottom: 5%;
+}
+
+.container {
+    position: relative;
+}
+
+.container h2 {
+    color: #4c96d7;
+    position: absolute;
+    top: -30px;
+}
+
+.container p {
+    color: #3a3a3a;
+    position: absolute;
+    top: 12px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    color:#3a3a3a;
+    background-color: #a6cbeb;
+    text-decoration: none;
+    border: solid #3a3a3a;
+    width: 30%;
+    font-size: 1.25em;
+}
+
+.notification {
+    color: red;
+    font-style: italic;
+}
+
+.addVehicle {
+    margin-left: 1%;
+}
+
+.upgrades {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    width: 95%;
+}
+
+.up {
+    grid-column: 1/3;
+}
+
+.item {
+    text-align: center;
+    background-color: #a6cbeb;
+    border: #3a3a3a solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.item img {
+    display: block;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    background-color: #3a3a3a;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    display: block;
+    color: #ffffff;
+    padding: 14px 12px;
+    text-decoration: none;
+}
+
+h1,h2 {
+    font-family: 'Aldrich', sans-serif;
+    padding-left: 1%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    border-top-style: solid;
+    border-color: #3a3a3a;
+    border-width: 5px;
+}
+
+p {
+    margin: 0px;
+    color: #3a3a3a;
+    padding-left: 1%;
+}
+
+main p {
+    margin-bottom: 2%;
+}
+
+li span {
+    padding-left: 1%;
+}
+
+#inv-display{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+   }
+   
+   #inv-display li{
+    margin-bottom: .5em;
+    border: 1px #ccc solid;
+    list-style-type: none;
+    flex: 1 1 auto;
+   }
+   
+   #inv-display li img {
+       max-width: 100%;
+   }
+
+.reviewstable p {
+    background-color: #deff96;
+    padding: 3%;
+}
